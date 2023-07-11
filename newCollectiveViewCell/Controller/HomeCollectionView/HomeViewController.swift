@@ -13,6 +13,8 @@ import SnapKit
 
 class HomeViewController: UIViewController {
     
+    
+    
     private lazy var collView2: UICollectionView = {
         var flowLayout = UICollectionViewFlowLayout()
         let view = UICollectionView(frame: self.view.bounds, collectionViewLayout: flowLayout)
@@ -23,6 +25,7 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = " 3D cartoons"
         
         setupUI() //зачем прописывать отдельно
         collectonViewConfigure()

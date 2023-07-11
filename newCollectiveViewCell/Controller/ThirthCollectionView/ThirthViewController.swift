@@ -23,6 +23,7 @@ class ThirthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Comedy"
         
         setupUI() //зачем прописывать отдельно
         collectonViewConfigure()

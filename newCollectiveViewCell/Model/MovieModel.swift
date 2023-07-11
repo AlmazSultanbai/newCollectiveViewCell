@@ -15,15 +15,48 @@ struct MovieModel {
 }
 struct MovieData {
     
-    let movies: [MovieModel] = [MovieModel(imageMovie: UIImage(named: "madmax")!, titleName: "Mad Max", descriptionName: "action"),
-MovieModel(imageMovie: UIImage(named: "movie5")!, titleName: "Capitan America", descriptionName: "action"),
-MovieModel(imageMovie: UIImage(named: "movie1")!, titleName: "Guardians of Galaxy", descriptionName: "action"),
-MovieModel(imageMovie: UIImage(named: "movie4")!, titleName: "Hocus Pocus", descriptionName: "action"),
-MovieModel(imageMovie: UIImage(named: "movie7")!, titleName: "Black Demon", descriptionName: "action"),
-MovieModel(imageMovie: UIImage(named: "movie8")!, titleName: "Flash", descriptionName: "action"),
-MovieModel(imageMovie: UIImage(named: "movie9")!, titleName: "Black Widow", descriptionName: "action"),
-MovieModel(imageMovie: UIImage(named: "movie10")!, titleName: "Avatar", descriptionName: "action"),
-]
+    let movies = [
+        MovieModel(
+            imageMovie: UIImage(named: "madmax")!,
+            titleName: "Mad Max",
+            descriptionName: "action"
+        ),
+        MovieModel(
+            imageMovie: UIImage(named: "movie5")!,
+            titleName: "Capitan America",
+            descriptionName: "action"
+        ),
+        MovieModel(
+            imageMovie: UIImage(named: "movie1")!,
+            titleName: "Guardians of Galaxy",
+            descriptionName: "action"
+        ),
+        MovieModel(
+            imageMovie: UIImage(named: "movie4")!,
+            titleName: "Hocus Pocus",
+            descriptionName: "action"
+        ),
+        MovieModel(
+            imageMovie: UIImage(named: "movie7")!,
+            titleName: "Black Demon",
+            descriptionName: "action"
+        ),
+        MovieModel(
+            imageMovie: UIImage(named: "movie8")!,
+            titleName: "Flash",
+            descriptionName: "action"
+        ),
+        MovieModel(
+            imageMovie: UIImage(named: "movie9")!,
+            titleName: "Black Widow",
+            descriptionName: "action"
+        ),
+        MovieModel(
+            imageMovie: UIImage(named: "movie10")!,
+            titleName: "Avatar",
+            descriptionName: "action"
+        )
+    ]
     
     
     let cartoons: [MovieModel] = [ MovieModel(imageMovie: UIImage(named: "sing")!, titleName: "Spirited", descriptionName: "comedy"),

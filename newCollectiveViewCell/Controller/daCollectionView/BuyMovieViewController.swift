@@ -74,7 +74,11 @@ class BuyMovieViewController: UIViewController {
     
    
          func showAlert() {
-            let alert = UIAlertController(title: "Done!", message: "Now you have the opportunity to watch this movie", preferredStyle: .alert)
+            let alert = UIAlertController(
+                title: "Done!",
+                message: "Now you have the opportunity to watch this movie",
+                preferredStyle: .alert
+            )
 
             let okAction = UIAlertAction(title: "Ok", style: .default) { action in
                 self.dismiss(animated: true)

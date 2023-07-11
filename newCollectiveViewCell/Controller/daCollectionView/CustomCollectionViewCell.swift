@@ -55,5 +55,4 @@ class CustomCollectionViewCell: UICollectionViewCell {
             make.horizontalEdges.equalToSuperview().inset(30)
         }
     }
-    //func getData(movie: MovieModel)
 }
