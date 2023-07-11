@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "monsters-inc-1529422601.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

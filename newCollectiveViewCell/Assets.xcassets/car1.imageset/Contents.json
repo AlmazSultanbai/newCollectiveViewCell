@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "2022_jeep_compass_4dr-suv_red-edition_fq_oem_1_1280.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "The-Magicians-Elephant-movie-poster-2023.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "dumbo-58b5aa005f9b586046a1c7f1.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}
